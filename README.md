@@ -181,3 +181,7 @@ prismjs:
   Modified from [markdown-it-spoiler](https://www.npmjs.com/package/@traptitech/markdown-it-spoiler)
 
   `!!spoiler!!`  => `<span class="spoiler" title="...">spoiler</span>`
+
+## Modification
+
++ Delete mermaid
