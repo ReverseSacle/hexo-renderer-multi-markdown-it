@@ -185,3 +185,6 @@ prismjs:
 ## Modification
 
 + Delete mermaid
++ Update `markdown-it` plugin version
++ Update `markdown-it-attrs` plugin version that has no big revises
++ Update `html-minifier` plugin version
