@@ -13,36 +13,36 @@ Warning: make sure you're inside the main hexo directory before starting this gu
 
 A default Hexo installation will include a markdown renderer plugin which uses marked, so you will have to remove it if you want to use this renderer.
 
-```
-npm un hexo-renderer-marked --save
+```bash
+npm uninstall hexo-renderer-marked --save
 ```
 
 or
 
-```
+```bash
 yarn remove hexo-renderer-marked
 ```
 
 If you have already removed the default renderer, and others you might of added, you can now safely install `hexo-renderer-multi-markdown-it`
 
-```
-npm i hexo-renderer-multi-markdown-it --save
+```bash
+npm install hexo-renderer-multi-markdown-it --save
 ```
 
 or
 
-```
+```bash
 yarn add hexo-renderer-multi-markdown-it
 ```
 
 if an error is reported as
-```
+```bash
 ERROR: Failed to download Chromium r515411! Set "PUPPETEER_SKIP_CHROMIUM_DOWNLOAD" env variable to skip download.
 ```
 
 please try again with the following command 
 
-```
+```bash
 yarn add hexo-renderer-multi-markdown-it --ignore-scripts
 ```
 
@@ -52,7 +52,7 @@ Configuring the renderer is a fairly simple task because all the settings are in
 
 You just need to open it in your favourite text editor and write down your configuration.
 
-``` yml
+``` yaml
 # opitions for renderer
 markdown:
   render:
@@ -86,32 +86,11 @@ markdown:
         enable: true
         options:
           title: "你知道得太多了"
-
-# options for minify
-minify:
-  html:
-    enable: true
-    exclude:
-      - '**/json.ejs'
-      - '**/atom.ejs'
-      - '**/rss.ejs'
-  css:
-    enable: true
-    exclude:
-      - '**/*.min.css'
-  js:
-    enable: true
-    mangle:
-      toplevel: true
-    output:
-    compress:
-    exclude:
-      - '**/*.min.js'
 ```
 
 disable the highlight of site `_config.yml`
 
-```
+```yaml
 # Writing
 ...
 highlight:
@@ -121,7 +100,7 @@ prismjs:
   enable: false
 ```
 
-## default Supported Plugins and Examples
+## Default supported plugins and examples
 
 - [markdown-it-sub](https://www.npmjs.com/package/markdown-it-sub): `H~2~0` H<sub>2</sub>O
 - [markdown-it-sup](https://www.npmjs.com/package/markdown-it-sup): `29^th^` 29<sup>th</sup>
@@ -184,10 +163,12 @@ prismjs:
 
 ## Modification
 
-+ Delete mermaid
-+ Update `markdown-it` plugin version
-+ Update `markdown-it-attrs` plugin version that has no big revises
-+ Delete `html-minifier` plugin, file`lib/filter.js` and it's dependencies
++ Delete mermaid plugin and it's dependencie
+  + Delete `puppeteer` plugin
+
++ Update `markdown-it` plugin version to `11.0.1`
++ Update `markdown-it-attrs` plugin version to `4.1.1`
++ Delete `html-minifier` plugin, file `lib/filter.js` and it's dependencies
   + Delete `uglify-js` plugin
   + Delete `clean-css` plugin
   + Delete `prismjs` plugin
