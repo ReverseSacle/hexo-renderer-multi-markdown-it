@@ -162,6 +162,8 @@ prismjs:
 + Delete `html-minifier` plugin, file `lib/filter.js` and it's dependencies
   + Delete `uglify-js` plugin
   + Delete `clean-css` plugin
-  + Delete `minimatch` plugin
-  + Delete `bluebird` plugin
++ Delete `minimatch` plugin
++ Delete `bluebird` plugin
 + Delete `markdown-it-pangu` plugin
++ Delete `deasync-promise` plugin
++ Add `gulp` plugin for the clean of js, css and html
