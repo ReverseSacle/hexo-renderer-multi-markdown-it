@@ -23,9 +23,9 @@
   "bugs": "https://github.com/ReverseSacle/hexo-renderer-multi-markdown-it/issues",
   "homepage": "https://github.com/ReverseSacle/hexo-renderer-multi-markdown-it",
   "dependencies": {
-    "frappe-charts": "^1.5.0",
+    "frappe-charts": "^1.6.0",
     "katex": "^0.12.0",
-    "markdown-it": "11.0.1",
+    "markdown-it": "12.0.4",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-attrs": "4.1.1",
     "markdown-it-bracketed-spans": "^1.0.1",
