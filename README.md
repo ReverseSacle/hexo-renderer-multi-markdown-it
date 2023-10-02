@@ -15,11 +15,7 @@ A default Hexo installation will include a markdown renderer plugin which uses m
 
 ```bash
 npm uninstall hexo-renderer-marked --save
-```
-
-or
-
-```bash
+# or
 yarn remove hexo-renderer-marked
 ```
 
@@ -27,23 +23,8 @@ If you have already removed the default renderer, and others you might of added,
 
 ```bash
 npm install hexo-renderer-multi-markdown-it --save
-```
-
-or
-
-```bash
+# or
 yarn add hexo-renderer-multi-markdown-it
-```
-
-if an error is reported as
-```bash
-ERROR: Failed to download Chromium r515411! Set "PUPPETEER_SKIP_CHROMIUM_DOWNLOAD" env variable to skip download.
-```
-
-please try again with the following command 
-
-```bash
-yarn add hexo-renderer-multi-markdown-it --ignore-scripts
 ```
 
 ## Options
