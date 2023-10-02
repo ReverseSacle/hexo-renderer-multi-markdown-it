@@ -166,4 +166,3 @@ prismjs:
 + Delete `bluebird` plugin
 + Delete `markdown-it-pangu` plugin
 + Delete `deasync-promise` plugin
-+ Add `gulp` plugin for the clean of js, css and html
