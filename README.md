@@ -123,8 +123,6 @@ prismjs:
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@0/dist/katex.min.css">
   ```
 
-- [markdown-it-pangu](https://shigma.github.io/markdown-it-pangu/)
-
 - markdown-it-prism
 
   code highlighted by [Prism.js](https://prismjs.com/)
@@ -134,12 +132,6 @@ prismjs:
   - marked line ` mark:1,3-4`
   
   - command ` command:{["[ee@s] $":1-2]["#":5-6,9-10]}`
-
-- markdown-it-mermaid
-
-  Support for [Mermaid](https://github.com/mermaid-js/mermaid)
-
-  You should add [css style](https://github.com/mermaid-js/mermaid/tree/develop/src/themes) for mermaid.
 
 - markdown-it-graphviz
   
@@ -165,12 +157,11 @@ prismjs:
 
 + Delete mermaid plugin and it's dependencie
   + Delete `puppeteer` plugin
-
 + Update `markdown-it` plugin version to `11.0.1`
 + Update `markdown-it-attrs` plugin version to `4.1.1`
 + Delete `html-minifier` plugin, file `lib/filter.js` and it's dependencies
   + Delete `uglify-js` plugin
   + Delete `clean-css` plugin
-  + Delete `prismjs` plugin
   + Delete `minimatch` plugin
   + Delete `bluebird` plugin
++ Delete `markdown-it-pangu` plugin
