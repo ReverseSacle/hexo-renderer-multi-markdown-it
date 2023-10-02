@@ -187,4 +187,9 @@ prismjs:
 + Delete mermaid
 + Update `markdown-it` plugin version
 + Update `markdown-it-attrs` plugin version that has no big revises
-+ Update `html-minifier` plugin version
++ Delete `html-minifier` plugin, file`lib/filter.js` and it's dependencies
+  + Delete `uglify-js` plugin
+  + Delete `clean-css` plugin
+  + Delete `prismjs` plugin
+  + Delete `minimatch` plugin
+  + Delete `bluebird` plugin
