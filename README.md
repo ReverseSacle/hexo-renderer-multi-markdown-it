@@ -138,7 +138,6 @@ prismjs:
 
 + Delete mermaid plugin and it's dependencie
   + Delete `puppeteer` plugin
-+ Update `markdown-it` plugin version to `11.0.1`
 + Update `markdown-it-attrs` plugin version to `4.1.1`
 + Delete `html-minifier` plugin, file `lib/filter.js` and it's dependencies
   + Delete `uglify-js` plugin
