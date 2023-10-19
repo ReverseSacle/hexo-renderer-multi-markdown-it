@@ -4,8 +4,6 @@ This renderer plugin uses [Markdown-it](https://github.com/markdown-it/markdown-
 
 This renderer plugin is forked from [hexo-renderer-markdown-it](https://github.com/hexojs/hexo-renderer-markdown-it) and [hexo-renderer-markdown-it-plus](https://www.npmjs.com/package/hexo-renderer-markdown-it-plus). 
 
-And minify tool is forked from [hexo-neat](https://github.com/rozbo/hexo-neat).
-
 [中文使用说明](https://shoka.lostyu.me/computer-science/note/theme-shoka-doc/)
 
 ## Installation
@@ -69,11 +67,10 @@ markdown:
           title: "你知道得太多了"
 ```
 
-disable the highlight of site `_config.yml`
+Disable the highlight of site `_config.yml`
 
 ```yaml
 # Writing
-...
 highlight:
   enable: false
 
@@ -83,10 +80,10 @@ prismjs:
 
 ## Default supported plugins and examples
 
-- [markdown-it-sub](https://www.npmjs.com/package/markdown-it-sub): `H~2~0` H<sub>2</sub>O
-- [markdown-it-sup](https://www.npmjs.com/package/markdown-it-sup): `29^th^` 29<sup>th</sup>
-- [markdown-it-ins](https://www.npmjs.com/package/markdown-it-ins): `++inserted++` <ins>inserted</ins>
-- [markdown-it-mark](https://www.npmjs.com/package/markdown-it-mark): `==marked==` <mark>marked</mark>
+- [markdown-it-sub](https://www.npmjs.com/package/markdown-it-sub): `H~2~0` → H<sub>2</sub>O
+- [markdown-it-sup](https://www.npmjs.com/package/markdown-it-sup): `29^th^` → 29<sup>th</sup>
+- [markdown-it-ins](https://www.npmjs.com/package/markdown-it-ins): `++inserted++` → <ins>inserted</ins>
+- [markdown-it-mark](https://www.npmjs.com/package/markdown-it-mark): `==marked==` → <mark>marked</mark>
 - [markdown-it-abbr](https://www.npmjs.com/package/markdown-it-abbr)
 - [markdown-it-bracketed-spans](https://www.npmjs.com/package/markdown-it-bracketed-spans)
 - [markdown-it-attrs](https://www.npmjs.com/package/markdown-it-attrs)
@@ -99,7 +96,7 @@ prismjs:
 - [markdown-it-multimd-table](https://www.npmjs.com/package/markdown-it-multimd-table)
 - [markdown-it-katex](https://www.npmjs.com/package/@neilsustc/markdown-it-katex)
 
-  If you want to use katex, you must add this css style to your website: 
+  If you want to use katex, you must add this css style to your website
   ```
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@0/dist/katex.min.css">
   ```
@@ -108,12 +105,10 @@ prismjs:
 
   code highlighted by [Prism.js](https://prismjs.com/)
 
-  comments will be spaced by `pangu.js`
-
   - marked line ` mark:1,3-4`
-  
-  - command ` command:{["[ee@s] $":1-2]["#":5-6,9-10]}`
 
+  - command ` command:{["[ee@s] $":1-2]["#":5-6,9-10]}`
+  
 - markdown-it-graphviz
   
   Based on [Graphviz](http://www.graphviz.org/)
