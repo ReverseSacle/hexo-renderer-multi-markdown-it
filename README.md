@@ -80,10 +80,10 @@ prismjs:
 
 ## Default supported plugins and examples
 
-- [markdown-it-sub](https://www.npmjs.com/package/markdown-it-sub): `H~2~0` → H<sub>2</sub>O
-- [markdown-it-sup](https://www.npmjs.com/package/markdown-it-sup): `29^th^` → 29<sup>th</sup>
-- [markdown-it-ins](https://www.npmjs.com/package/markdown-it-ins): `++inserted++` → <ins>inserted</ins>
-- [markdown-it-mark](https://www.npmjs.com/package/markdown-it-mark): `==marked==` → <mark>marked</mark>
+- [markdown-it-sub](https://www.npmjs.com/package/markdown-it-sub) - `H~2~0` → H<sub>2</sub>O
+- [markdown-it-sup](https://www.npmjs.com/package/markdown-it-sup) - `29^th^` → 29<sup>th</sup>
+- [markdown-it-ins](https://www.npmjs.com/package/markdown-it-ins) - `++inserted++` → <ins>inserted</ins>
+- [markdown-it-mark](https://www.npmjs.com/package/markdown-it-mark) - `==marked==` → <mark>marked</mark>
 - [markdown-it-abbr](https://www.npmjs.com/package/markdown-it-abbr)
 - [markdown-it-bracketed-spans](https://www.npmjs.com/package/markdown-it-bracketed-spans)
 - [markdown-it-attrs](https://www.npmjs.com/package/markdown-it-attrs)
@@ -109,30 +109,21 @@ prismjs:
 
   - command ` command:{["[ee@s] $":1-2]["#":5-6,9-10]}`
   
-- markdown-it-graphviz
+- markdown-it-graphviz - Based on [Graphviz](http://www.graphviz.org/)
   
-  Based on [Graphviz](http://www.graphviz.org/)
+- markdown-it-chart - Based on [Frappe Charts](https://frappe.io/charts)
 
-- markdown-it-chart
-
-  Based on [Frappe Charts](https://frappe.io/charts)
-
-- markdown-it-furigana
+- markdown-it-furigana - Modified from [furigana-markdown-it](https://www.npmjs.com/package/furigana-markdown-it) and [markdown-it-ruby](https://www.npmjs.com/package/markdown-it-ruby)
   
-  Modified from [furigana-markdown-it](https://www.npmjs.com/package/furigana-markdown-it) and [markdown-it-ruby](https://www.npmjs.com/package/markdown-it-ruby)
-
   eg. `{可愛い犬^か+わい・い・いぬ}`
 
-- markdown-it-spoiler
-
-  Modified from [markdown-it-spoiler](https://www.npmjs.com/package/@traptitech/markdown-it-spoiler)
+- markdown-it-spoiler - Modified from [markdown-it-spoiler](https://www.npmjs.com/package/@traptitech/markdown-it-spoiler)
 
   `!!spoiler!!`  => `<span class="spoiler" title="...">spoiler</span>`
 
 ## Modification
 
-+ Delete mermaid plugin and it's dependencie
-  + Delete `puppeteer` plugin
++ Delete `mermaid` plugin and it's dependencie `puppeteer` plugin
 + Update `markdown-it-attrs` plugin version
 + Delete `html-minifier` plugin, file `lib/filter.js` and it's dependencies
   + Delete `uglify-js` plugin
@@ -141,4 +132,4 @@ prismjs:
 + Delete `bluebird` plugin
 + Delete `markdown-it-pangu` plugin
 + Delete `deasync-promise` plugin
-+ Correct `markdown-it-prism` plugin problem that the plugin doesn't render When use mult-line of code comment 
++ Correct `markdown-it-prism` plugin problem that doesn't render When having mult-line code comment 
