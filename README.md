@@ -20,7 +20,7 @@ yarn remove hexo-renderer-marked
 If you have already removed the default renderer, and others you might of added, you can now safely install `hexo-renderer-multi-markdown-it`
 
 ```bash
-npm install hexo-renderer-multi-markdown-it --save
+npm install https://github.com/ReverseSacle/hexo-renderer-multi-markdown-it.git --save
 # or
 yarn add hexo-renderer-multi-markdown-it
 ```
