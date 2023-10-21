@@ -23,7 +23,7 @@
   "bugs": "https://github.com/ReverseSacle/hexo-renderer-multi-markdown-it/issues",
   "homepage": "https://github.com/ReverseSacle/hexo-renderer-multi-markdown-it",
   "dependencies": {
-	"prismjs": "^1.21.0",
+    "prismjs": "^1.21.0",
     "frappe-charts": "^1.6.0",
     "katex": "^0.12.0",
     "markdown-it": "10.0.0",
