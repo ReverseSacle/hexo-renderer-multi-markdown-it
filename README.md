@@ -141,3 +141,4 @@ prismjs:
 + Delete `bluebird` plugin
 + Delete `markdown-it-pangu` plugin
 + Delete `deasync-promise` plugin
++ Correct `markdown-it-prism` plugin problem that the plugin doesn't render When use mult-line of code comment 
