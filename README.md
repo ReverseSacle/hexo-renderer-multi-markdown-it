@@ -22,7 +22,7 @@ If you have already removed the default renderer, and others you might of added,
 ```bash
 npm install https://github.com/ReverseSacle/hexo-renderer-multi-markdown-it.git --save
 # or
-yarn add hexo-renderer-multi-markdown-it
+yarn add https://github.com/ReverseSacle/hexo-renderer-multi-markdown-it.git
 ```
 
 ## Options
